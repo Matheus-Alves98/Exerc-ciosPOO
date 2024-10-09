@@ -16,9 +16,11 @@ class Pessoa:
     def dormir(self):
         print("foi dormir")
 
-p1 = Pessoa("Matheus",70,26,)
+p1 = Pessoa("Matheus",70,26)
 p1.nome="Matheus Alves"
 p1.andar()
 
 
-c2 = Pessoa("Márcio",70)
+c2 = Pessoa("Márcio",70,26)
+c2.comer()
+c2.comer()
